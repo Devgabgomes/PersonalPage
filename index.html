@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/lanscape.css">
+    <title>Gabriel Simões | Desenvolvedor</title>
+</head>
+<body onresize="onWidth()" onscroll="onScroll()" id="top">
+    <div class="containerRight">
+        <button class="btn-top" id="btn-top">
+            <a href="#top"><img src="assets/images/interations/arrow-up.png" alt=""></a>
+        </button>
+        <a href="https://wa.me/5511960542123?text=Olá,%20gostei%20do%20seu%20portfólio!%20Tenho%20interesse." target="_blank">
+            <button class="btn-contact" id="btn-contact">
+                <div>
+                    <p>
+                        Gostou? <br> Entre em contato agora <br>clicando aqui.
+                    </p>
+                </div>
+                <div><img src="assets/images/interations/redes/whatsapp.png" alt=""></div>
+            </button>
+        </a>
+    </div>
+
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="assets/logo.svg" alt=""></a>
+        </div>
+        <div>
+            <menu>
+                <nav class="nav-bar">
+                    <ul>
+                        <a href="#sobremim">
+                            <li id="mbtn1">Sobre mim</li>
+                        </a>
+                        <a href="#trajetória">
+                            <li>Trajetória</li>
+                        </a>
+                        <a href="#projetos">
+                            <li>Projetos</li>
+                        </a>
+                        <a href="contato/index.html">
+                            <li>Contato</li>
+                        </a>
+                    </ul>
+                </nav>
+                <div class="menu-hamburguer" onclick="onMenu()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </menu>
+        </div>
+        <nav class="navResponse">
+            <div>
+                <div class="menu-Top">
+                    <h1>Menu</h1>
+                    <div class="toClosMenu" onclick="onMenu()">
+                        <div class="x1"></div>
+                        <div class="x2"></div>
+                    </div>
+                </div>
+                <ul>
+                    <a href="#sobremim">
+                        <li onclick="closeMenu()">Sobre mim</li>
+                    </a>
+                    <a href="#trajetória">
+                        <li onclick="closeMenu()">Trajetória</li>
+                    </a>
+                    <a href="#projetos">
+                        <li onclick="closeMenu()">Projetos</li>
+                    </a>
+                    <a href="contato/index.html">
+                        <li onclick="closeMenu()">Contato</li>
+                    </a>
+                </ul>
+            </div>
+            <div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main id="sobremim">
+        <section>
+            <div class="section1">
+                <h1>
+                    <span>Olá,</span> <br>
+                    eu me chamo<br>
+                    Gabriel
+                </h1>
+                <p>
+                    Transformando ideias em experiências digitais, do real ao digital.
+                </p>
+                <div>
+                    <a href="contato/index.html"><button class="btn-contact2">Entrar em contato</button></a>
+                    <a href="assets/curriculo/Currículo - Gabriel.pdf" download="Currículo (CV)" target="_blank"><button class="btn-cv">Currículo (CV)</button></a>
+                </div>
+            </div>
+            <img src="assets/images/my-photos/image1.png" class="image1" alt="">
+        </section>
+    </main>
+    <article class="myResume">
+        <div>
+            <p>
+                Bem-vindo ao meu portfólio!
+
+                Aqui você encontrará projetos que mostram minha paixão por tecnologia e design. Sou um desenvolvedor front-end dedicado a criar interfaces modernas, funcionais e intuitivas. Fique à vontade para explorar!
+            </p>
+            <p>
+                Meu objetivo é transformar ideias em experiências digitais incríveis! Como desenvolvedor front-end, meu foco é criar interfaces que sejam visualmente atraentes, intuitivas e otimizadas, sempre alinhando design e funcionalidade para oferecer o melhor aos usuários.
+            </p>
+            <a href=" https://www.linkedin.com/in/gabriel-sim%C3%B5es-288b322a5/" target="_blank"><button class="btn-linkedin"> <img src="assets/images/interations/redes/linkedin.png" width="15px" alt=""> LinkedIn</button></a>
+            <a href="https://github.com/Devgabgomes" target="_blank"><button class="btn-github"> <img src="assets/images/interations/github-icon.png" width="15px" alt=""> GitHub</button></a>
+        </div>
+            <img src="assets/images/my-photos/image2.png" class="image2" alt="">
+    </article>
+
+    <section class="myTechnology">
+        <h2>Tecnologias</h2>
+        <p>Logo abaixo estão as tecnologias que <br> utilizo e tenho conhecimento!</p>
+        <aside class="allTechnology">
+            <abbr title="HTML5"><img src="assets/images/interations/html5-icon.png" alt=""></abbr>
+            <abbr title="CSS3"><img src="assets/images/interations/css3-icon.png" alt=""></abbr>
+            <abbr title="JavaScript"><img src="assets/images/interations/js-icon.png" alt=""></abbr>
+            <abbr title="NODE JS"><img src="assets/images/interations/nodejs-icon.png" alt=""></abbr>
+            <abbr title="Firebase"><img src="assets/images/interations/firebase-icon.png" alt=""></abbr>
+            <abbr title="Bootstrap"><img src="assets/images/interations/bootstrap-icon.png" alt=""></abbr>
+            <abbr title="React"><img src="assets/images/interations/react-icon.png" alt=""></abbr>
+            <abbr title="Github"><img src="assets/images/interations/github-icon.png" alt=""></abbr>
+            <abbr title="Git"><img src="assets/images/interations/git-icon.png" alt=""></abbr>
+        </aside>
+    </section>
+    <div id="trajetória"></div>
+    <section class="myTrajectory">
+        <h2>Trajetória</h2>
+        <p>Conheça a minha trajetória logo abaixo. <br> Arraste para descobrir mais!</p>
+        <div class="dragscroll" id="container-Trajectory">
+             <section class="trajectory1">
+                <div class="ano">
+                    2021
+                </div>
+                <p>Iniciei um curso básico de hardware, software e redes, marcando minha primeira experiência no universo da tecnologia. Foi ali que tudo começou!</p>
+                <div>
+                    <img src="" alt="">
+                </div>
+             </section>
+             <section class="trajectory2">
+                <div class="ano">
+                    2022
+                </div>
+                <p>Neste ano, embarquei na busca pelo meu primeiro emprego e comecei a estagiar como operador de caixa e repositor em um mercado do bairro.</p>
+                <div>
+                    <img src="" alt="">
+                </div>
+             </section>
+             <section class="trajectory1">
+                <div class="ano">
+                    2023
+                </div>
+                <p>Concluí o ensino médio decidido sobre a área que iria seguir. Iniciei meus estudos em programação, dando o primeiro passo para arriscar e investir no meu futuro!</p>
+                <div>
+                    <img src="" alt="">
+                </div>
+             </section>
+             <section class="trajectory2">
+                <div class="ano" style="width: 130px;">
+                    2023 - 2024
+                </div>
+                <p>Uma nova oportunidade surge, começo a estagiar como auxiliar de logística. Pouco tempo depois, sou promovido e registrado, uma conquista na minha trajetória.</p>
+                <div>
+                    <img src="" alt="">
+                </div>
+             </section>
+             <section class="trajectory1">
+                <div class="ano">
+                    2024
+                </div>
+                <p>Iniciei na área de programação como freelancer, com o objetivo de ingressar na faculdade. Foi o começo de uma nova jornada de desafios e experiências em minha vida!</p>
+             </section>
+        </div>
+    </section>
+
+    <div id="projetos"></div>
+    <section class="myProjects">
+        <h2>Projetos</h2>
+        <p>Conheça o meu portfólio, explore à vontade.</p>
+        <div class="container-Projects">
+            <section>
+
+            </section>
+            <section>
+
+            </section>
+            <section>
+
+            </section>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <div>
+                <img src="assets/images/my-photos/img-footer.jpg" class="img-footer" alt="">
+            </div>
+            <div>
+                <p>
+                    Desenvolvendo soluções digitais para transformar ideias em realidade. Disponível para colaborações com empresas e projetos como profissional autônomo.
+                </p>
+                <a href="https://www.linkedin.com/in/gabriel-sim%C3%B5es-288b322a5/" target="_blank"><img src="assets/images/interations/redes/linkedin.png" class="rede" alt=""></a>
+                <a href="https://www.instagram.com/devgabgomes/" target="_blank"><img src="assets/images/interations/redes/instagram.png" class="rede" alt=""></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dragscroll/0.0.8/dragscroll.min.js"></script>
+    <script src="scripts/interface.js"></script>
+</body>
+</html>

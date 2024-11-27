@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <link rel="stylesheet" href="../styles/styles-contact.css">
+    <link rel="shortcut icon" href="../assets/favicon.png" type="image/x-icon">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="../index.html"><img src="../assets/logo.svg" alt=""></a>
+        </div>
+        <div>
+            <menu>
+                <nav class="nav-bar">
+                    <ul>
+                        <a href="../index.html">
+                            <li class="back"><img src="../assets/images/interations/arrow-left.png" alt=""> Voltar</li>
+                        </a>
+                        <a href="index.html">
+                            <li class="contato">Contato</li>
+                        </a>
+                    </ul>
+                </nav>
+            </menu>
+        </div>
+    </header>
+
+    <section>
+        <div class="titleForm">
+            <h1>Fale comigo <img src="../assets/images/message.png" alt=""></h1>
+            <p>Entre em contato comigo através do formulário abaixo.</p>
+        </div>
+        <form 
+        action="https://formsubmit.co/gabriel_0312@outlook.com.br" class="contato"
+        method="POST"
+        autocomplete="on"
+          >
+            <div>
+                <p><label for="nome"> <img src="../assets/images/interations/user.png" width="14px" alt="">Seu nome</label></p>
+                <input type="text" name="nome" id="nome" autocomplete="name" required>
+            </div>
+
+            <div>
+                <p><label for="email"> <img src="../assets/images/interations/email.png" alt="">@ E-mail para contato</label></p>
+                <input type="email" name="email" id="email" autocomplete="email" required>
+            </div>
+
+            <div style="margin-bottom: 0px;">
+                <p><label for="mensagem"> O que tem em mente?</label></p>
+                <textarea name="mensagem" id="mensagem" required></textarea>
+            </div>
+            <p class="message1">
+                Caso deseje contato por Whats App ou alguma rede social, basta especificar no corpo da mensagem.
+            </p>
+            <input type="submit" value="Enviar" class="btnUp" onclick="sendForm()">
+            <hr>
+            <p class="message1" style="text-align: center;">ou me encontre nas redes sociais</p>
+            <div class="redeSocial">
+                <a href="https://wa.me/5511960542123?text=Olá,%20vi%20o%20seu%20site%20e%20gostaria%20de%20entrar%20em%20contato." target="_blank"><img src="../assets/images/interations/redes/whatsapp2.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/gabriel-sim%C3%B5es-288b322a5/" target="_blank"><img src="../assets/images/interations/redes/linkedin2.png" alt=""></a>
+                <a href="https://www.instagram.com/devgabgomes/" target="_blank"><img src="../assets/images/interations/redes/instagram2.png" alt=""></a>
+            </div>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="http://192.168.0.4:5500/contato/contato/obrigado/index.html">
+        </form>
+    </section>
+
+    <script src="../scripts/interface.js"></script>
+</body>
+</html>
