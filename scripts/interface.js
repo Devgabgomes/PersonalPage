@@ -53,7 +53,7 @@ function onScroll() {
 const SendForm = () => {
     let btnUp = document.querySelector('input.btnUp')
     if (document.getElementById('nome').value.length>1 && document.getElementById('email').value.length>1 && document.getElementById('mensagem').value.length>1) {
-        btnUp.innerHTML =  'Enviando...'
+        btnUp.innerText =  'Enviando...'
         btnUp.style.background = '#757575'
         btnUp.style.cursor = 'not-allowed'
     } else {
