@@ -27,6 +27,8 @@ body::-webkit-scrollbar-thumb {
     border-radius: 20px;
 }
 
+.efeito-txt-top{visibility: hidden;}
+
 body{
     display: flex;
     flex-direction: column;
