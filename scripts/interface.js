@@ -38,7 +38,6 @@ function onScroll() {
             btntop.style.display = 'block'
             btntop.style.transform = 'translateX(0%)'
             btntop.style.animationName = 'slowLeft'
-    
             btncontact.style.display = 'flex'
             btncontact.style.transform = 'translateX(0%)'
             btncontact.style.animationName = 'slowLeft'
@@ -66,4 +65,87 @@ function sendForm (){
     SendForm()
 }
 
+window.efectScroll = ScrollReveal({reset:true})
 
+// topo do site
+efectScroll.reveal('.efeito-txt-top',{
+    duration: 2000,
+    distance: '5px'
+})
+
+efectScroll.reveal('.efeito-img-top',{
+    duration: 2100,
+    distance: '5px',
+    delay: 500
+})
+
+efectScroll.reveal('.efeito-img-top2',{
+    duration: 2100,
+    distance: '0px',
+    delay: 500
+})
+
+efectScroll.reveal('.efeito-txt-top2',{
+    duration: 2000,
+    distance: '90px'
+})
+
+efectScroll.reveal('.efeito-img-top3',{
+    duration: 2100,
+    distance: '90px',
+    delay: 500
+})
+
+efectScroll.reveal('.efeito-img1',{
+    duration: 2100,
+    distance: '90px',
+    delay: 500
+})
+
+efectScroll.reveal('.efeito-img2',{
+    duration: 2100,
+    distance: '90px',
+    delay: 600
+})
+
+efectScroll.reveal('.efeito-img3',{
+    duration: 2100,
+    distance: '90px',
+    delay: 700
+})
+
+efectScroll.reveal('.efeito-img4',{
+    duration: 2100,
+    distance: '90px',
+    delay: 800
+})
+
+efectScroll.reveal('.efeito-img5',{
+    duration: 2100,
+    distance: '90px',
+    delay: 900
+})
+
+efectScroll.reveal('.efeito-img6',{
+    duration: 2100,
+    distance: '90px',
+    delay: 1000
+})
+
+efectScroll.reveal('.efeito-img7',{
+    duration: 2100,
+    distance: '90px',
+    delay: 1100
+})
+
+efectScroll.reveal('.efeito-img8',{
+    duration: 2100,
+    distance: '90px',
+    delay: 1200
+})
+
+efectScroll.reveal('.efeito-img9',{
+    duration: 2100,
+    distance: '90px',
+    delay: 1300
+})
