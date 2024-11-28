@@ -67,7 +67,24 @@ function sendForm (){
 
 window.efectScroll = ScrollReveal({reset:true})
 
-// topo do site
+efectScroll.reveal('.efeito-txt-top-left',{
+    duration: 2000,
+    distance: '100px',
+    origin: 'left'
+})
+
+efectScroll.reveal('.efeito-txt-top-left2',{
+    duration: 2000,
+    distance: '70px',
+    origin: 'left'
+})
+
+efectScroll.reveal('.efeito-img-top-right',{
+    duration: 2000,
+    distance: '100px',
+    origin: 'right'
+})
+
 efectScroll.reveal('.efeito-txt-top',{
     duration: 2000,
     distance: '5px'
