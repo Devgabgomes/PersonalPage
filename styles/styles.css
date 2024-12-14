@@ -67,7 +67,8 @@ body::-webkit-scrollbar-thumb {
 .rede:hover{
     cursor: pointer;
     opacity: 100%;
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.295);
+    position: relative;
+    bottom: 5px;
     border-radius: 50%;
 }
 
@@ -485,7 +486,7 @@ section p{
     margin-top: 40px;
     display: flex;
     width: 100vw;
-    height: 400px;
+    height: 420px;
     align-items: center;
     justify-content: space-between;
     background: var(--secundary-color) url(../assets/images/background1.jpg) no-repeat;
@@ -508,7 +509,7 @@ section p{
 
 #container-Trajectory>section{
     min-width: 300px;
-    height: 160px;
+    height: 180px;
     margin: 0px 20px;
     background-color: #3c51809a;
     backdrop-filter: blur( 5px );
@@ -548,6 +549,12 @@ section p{
     position: relative;
     right: 30px;
     bottom: 30px;
+}
+
+.img-trajectory{
+    position: relative;
+    left: 250px;
+    width: 25px;
 }
 
 .myProjects{
@@ -617,5 +624,4 @@ footer .img-footer{
     margin-bottom: 30px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.233);
 }
-
 /* Configurar o menu e o topRight */

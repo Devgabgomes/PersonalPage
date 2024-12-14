@@ -64,6 +64,7 @@ function sendForm (){
     SendForm()
 }
 
+
 window.efectScroll = ScrollReveal({reset:true})
 
 efectScroll.reveal('.efeito-txt-top-left',{
